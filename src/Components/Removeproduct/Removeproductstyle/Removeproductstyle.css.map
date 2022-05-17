@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,kBAAkB,CAAC;EACf,KAAK,ECDA,OAAO;CDEf;;AAED,AAAA,eAAe,CAAC;EACZ,KAAK,EAAE,GAAG;CACb;;AAED,AAAA,UAAU,CAAC;EACP,UAAU,EAAE,EAAE;EACd,aAAa,EAAE,EAAE;EACjB,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,KAAK;EACZ,YAAY,EAAE,EAAE;EAChB,gBAAgB,EChBC,OAAO;EDiBxB,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,UAAU,AAAA,MAAM;AAChB,UAAU,AAAA,MAAM,CAAC;EACb,gBAAgB,ECtBC,OAAO;EDuBxB,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "Removeproductstyle.scss",
+        "../../../Colortheme/Colortheme.scss"
+    ],
+    "names": [],
+    "file": "Removeproductstyle.css"
+}

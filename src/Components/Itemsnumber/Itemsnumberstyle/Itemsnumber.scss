@@ -9,6 +9,9 @@
     padding: 2%;
     overflow-y: scroll;
 }
+.main::-webkit-scrollbar{
+    display: none;
+}
 
 .itemsTextboxLabel{
     color: $white;

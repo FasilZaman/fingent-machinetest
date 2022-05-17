@@ -8,6 +8,10 @@
   overflow-y: scroll;
 }
 
+.main::-webkit-scrollbar {
+  display: none;
+}
+
 .itemsTextboxLabel {
   color: #FFFFFF;
 }

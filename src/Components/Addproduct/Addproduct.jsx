@@ -38,7 +38,7 @@ function Addproduct({ Count }) {
                 )}
             </Container>
             <Container>
-                <Button className='addButton' type="submit" >
+                <Button className='addButton ' type="submit" >
                     Add
                 </Button>
             </Container>
