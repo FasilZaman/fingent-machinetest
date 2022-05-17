@@ -1,9 +1,13 @@
-import React from 'react'
+import React,{useContext} from 'react'
+import './Removeproductstyle/Removeproductstyle.css'
 import { Form, Row, Col, Container, Button } from 'react-bootstrap'
+import { productsContext } from '../../Context/Productcontext'
+
 
 
 function Removeproduct({ Count }) {
     let arr = []
+    const { productDetails } = useContext(productsContext)
     for (let i = 0; i < Count; i++) {
         arr.push(i)
     }
@@ -21,7 +25,7 @@ function Removeproduct({ Count }) {
                 {arr.map(() =>
                     <Row className='mt-4'>
                         <Col>
-                            <Form.Control className='itemsTextboxes' type="number" />
+                            <Form.Control className='itemsTextboxes' type="text" />
                         </Col>
                         <Col>
                             <Form.Control className='itemsTextboxes' type="number" />
@@ -30,7 +34,7 @@ function Removeproduct({ Count }) {
                 )}
             </Container>
             <Container>
-                <Button className='addButton ' type="submit" >
+                <Button className='addButton ' type="submit" onClick={()=>console.log(productDetails)}>
                     Remove
                 </Button>
             </Container>
