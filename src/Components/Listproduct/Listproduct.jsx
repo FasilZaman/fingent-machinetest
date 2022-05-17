@@ -25,17 +25,17 @@ function Listproduct() {
                         </tr>
                     </thead>
                     <tbody>
-                    {products.map((Code,i)=>
-                        <tr>
-                        <td>{i+1}</td>
-                        <td>{Code}</td>
-                        <td>{productDetails[Code].name}</td>
-                        <td>{productDetails[Code].quantity}</td>
-                    </tr>
-                    )
+                        {products.map((Code, i) =>
+                            <tr>
+                                <td>{i + 1}</td>
+                                <td>{Code}</td>
+                                <td>{productDetails[Code].name}</td>
+                                <td>{productDetails[Code].quantity}</td>
+                            </tr>
+                        )
 
-                    }
-                        
+                        }
+
                     </tbody>
                 </Table>
             </div>
