@@ -1,0 +1,18 @@
+@import '../../../Colortheme/Colortheme.scss';
+
+.buttonGroup {
+    margin: auto;
+}
+
+.button1 {
+    background-color: $headerbutton;
+    border: none;
+}
+
+.button1:hover,
+.button1:focus,
+.button1:active,
+.button1.active {
+    background-color: $headerbuttonhover;
+    box-shadow: none;
+}

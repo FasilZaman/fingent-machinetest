@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,YAAY,CAAC;EACT,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,QAAQ,CAAC;EACL,gBAAgB,ECPJ,OAAO;EDQnB,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,QAAQ,AAAA,MAAM;AACd,QAAQ,AAAA,MAAM;AACd,QAAQ,AAAA,OAAO;AACf,QAAQ,AAAA,OAAO,CAAC;EACZ,gBAAgB,ECdC,OAAO;EDexB,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "Headerstyles.scss",
+        "../../../Colortheme/Colortheme.scss"
+    ],
+    "names": [],
+    "file": "Headerstyles.css"
+}
