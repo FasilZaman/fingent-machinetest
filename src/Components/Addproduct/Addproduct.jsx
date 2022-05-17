@@ -18,8 +18,7 @@ function Addproduct({ Count }) {
     const handleSubmit = () => {
         console.log(formData);
         for (let i = 0; i < Count; i++) {
-            if (productDetails[formData[i + 'Code']]) {  
-                console.log('product already exist');
+            if (productDetails[formData[i + 'Code']]) {
                 productDetails[formData[i + 'Code']].quantity = parseInt(productDetails[formData[i + 'Code']].quantity) + parseInt(formData[i + 'Quantity'])
             } else {
                 productDetails[formData[i + 'Code']] = { name: formData[i + 'Name'], quantity: formData[i + 'Quantity'] }

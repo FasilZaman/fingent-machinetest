@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Header from '../Header/Header'
-import {Table} from 'react-bootstrap'
+import { Table } from 'react-bootstrap'
 import './Listproductstyle/Listproductstyle.css'
+import { productsContext } from '../../Context/Productcontext'
 
 function Listproduct() {
+    const { productDetails } = useContext(productsContext)
+    let products = []
+    for (let i in productDetails) {
+        products.push(i)
+        console.log(products);
+    }
     return (
         <div>
             <Header data='list' />
@@ -12,24 +19,23 @@ function Listproduct() {
                     <thead>
                         <tr>
                             <th>Sl no</th>
-                            <th>First Name</th>
-                            <th>Last Name</th>
-                            <th>Username</th>
+                            <th>Product code</th>
+                            <th>Product Name</th>
+                            <th>Quantity</th>
                         </tr>
                     </thead>
                     <tbody>
+                    {products.map((Code,i)=>
                         <tr>
-                            <td>1</td>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
+                        <td>{i+1}</td>
+                        <td>{Code}</td>
+                        <td>{productDetails[Code].name}</td>
+                        <td>{productDetails[Code].quantity}</td>
+                    </tr>
+                    )
+
+                    }
+                        
                     </tbody>
                 </Table>
             </div>
