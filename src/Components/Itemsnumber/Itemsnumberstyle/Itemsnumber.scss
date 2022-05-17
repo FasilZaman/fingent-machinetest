@@ -1,0 +1,35 @@
+@import '../../../Colortheme/Colortheme.scss';
+
+.main{
+    width: 94%;
+    height: 80vh;
+    background-color: $Itemsnumber;
+    margin: auto;
+    border-radius: 20px;
+    padding: 2%;
+    overflow-y: scroll;
+}
+
+.itemsTextboxLabel{
+    color: $white;
+}
+
+.itemsTextbox{
+    width: 300px;
+}
+
+.textboxOuter{
+    display: flex;
+}
+
+.button{
+    margin-left: 1%;
+    background-color: $headerbuttonhover;
+    border: none;
+}
+
+.button:hover,
+.button:focus {
+    background-color: $headerbuttonhover;
+    box-shadow: none;
+}

@@ -2,11 +2,13 @@
 
 .buttonGroup {
     margin: auto;
+    padding: 2vw;
 }
 
 .button1 {
     background-color: $headerbutton;
-    border: none;
+    // border: none;
+    border-color: $headerbuttonhover;
 }
 
 .button1:hover,

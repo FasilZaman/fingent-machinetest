@@ -1,17 +1,18 @@
 .buttonGroup {
   margin: auto;
+  padding: 2vw;
 }
 
 .button1 {
-  background-color: #02663a;
-  border: none;
+  background-color: #36ba7f;
+  border-color: #194f37;
 }
 
 .button1:hover,
 .button1:focus,
 .button1:active,
 .button1.active {
-  background-color: #002616;
+  background-color: #194f37;
   -webkit-box-shadow: none;
           box-shadow: none;
 }

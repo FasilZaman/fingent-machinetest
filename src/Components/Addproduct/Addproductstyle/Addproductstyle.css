@@ -1,0 +1,24 @@
+.itemsTextboxLabel {
+  color: #FFFFFF;
+}
+
+.itemsTextboxes {
+  width: 75%;
+}
+
+.addButton {
+  margin-top: 2%;
+  width: 100px;
+  float: right;
+  margin-right: 8%;
+  background-color: #194f37;
+  border: none;
+}
+
+.addButton:hover,
+.addButton:focus {
+  background-color: #194f37;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=Addproductstyle.css.map */

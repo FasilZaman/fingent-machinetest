@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,kBAAkB,CAAA;EACd,KAAK,ECDA,OAAO;CDEf;;AAED,AAAA,eAAe,CAAA;EACX,KAAK,EAAE,GAAG;CACb;;AAED,AAAA,UAAU,CAAA;EACN,UAAU,EAAE,EAAE;EACd,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,KAAK;EACZ,YAAY,EAAE,EAAE;EAChB,gBAAgB,ECfC,OAAO;EDgBxB,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,UAAU,AAAA,MAAM;AAChB,UAAU,AAAA,MAAM,CAAC;EACb,gBAAgB,ECrBC,OAAO;EDsBxB,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "Addproductstyle.scss",
+        "../../../Colortheme/Colortheme.scss"
+    ],
+    "names": [],
+    "file": "Addproductstyle.css"
+}

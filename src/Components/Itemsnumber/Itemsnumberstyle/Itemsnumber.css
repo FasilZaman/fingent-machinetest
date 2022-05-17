@@ -1,0 +1,37 @@
+.main {
+  width: 94%;
+  height: 80vh;
+  background-color: #2ea36f;
+  margin: auto;
+  border-radius: 20px;
+  padding: 2%;
+  overflow-y: scroll;
+}
+
+.itemsTextboxLabel {
+  color: #FFFFFF;
+}
+
+.itemsTextbox {
+  width: 300px;
+}
+
+.textboxOuter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button {
+  margin-left: 1%;
+  background-color: #194f37;
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #194f37;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=Itemsnumber.css.map */
